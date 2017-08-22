@@ -162,7 +162,7 @@ public class Kite {
                                 windowManager.removeView(view);
                                 isShowing = false;
                                 if (kite != null) {
-                                    kite.setTouching(isShowing);
+                                    kite.setShowing(isShowing);
                                 }
                                 timer.cancel();
                             }
@@ -183,7 +183,7 @@ public class Kite {
                                                 windowManager.removeView(view);
                                                 isShowing = false;
                                                 if (kite != null) {
-                                                    kite.setTouching(isShowing);
+                                                    kite.setShowing(isShowing);
                                                 }
                                             }
                                         }
