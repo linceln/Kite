@@ -1,0 +1,6 @@
+<resources>
+    <style name="AnimFromTop" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/top_in</item>
+        <item name="android:windowExitAnimation">@anim/top_out</item>
+    </style>
+</resources>
